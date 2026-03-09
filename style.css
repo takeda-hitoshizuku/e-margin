@@ -250,6 +250,9 @@ section {
   transition: background 0.2s;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .work-card::before {
@@ -293,6 +296,14 @@ section {
   font-size: 0.85rem;
   color: var(--muted);
   line-height: 1.85;
+}
+
+.work-date {
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--accent-dim);
+  margin-top: 1.25rem;
 }
 
 /* ── Skills ── */
